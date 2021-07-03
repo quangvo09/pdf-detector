@@ -1,0 +1,31 @@
+{
+  "name": "fastify-starter",
+  "version": "1.0.0",
+  "description": "Get started using Fastify with this basic template.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/start.js",
+    "dev": "nodemon src/start.js",
+    "test": "tap --no-coverage  --no-esm"
+  },
+  "dependencies": {
+    "fastify": "^2.10.0",
+    "lodash": "4.17.21",
+    "pdf.js-extract": "0.1.5",
+    "pdfreader": "1.2.8"
+  },
+  "devDependencies": {
+    "tap": "^14.10.2",
+    "nodemon": "^2.0.1"
+  },
+  "keywords": [
+    "fastify",
+    "node.js",
+    "backend",
+    "server",
+    "http"
+  ],
+  "eslintConfig": {
+    "sourceType": "script"
+  }
+}
